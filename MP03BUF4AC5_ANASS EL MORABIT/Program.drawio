@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="SWzX_uNyA-tqdILGIeBK" name="Page-1">
+        <mxGraphModel dx="317" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Personajes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="120" width="160" height="208" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Nombre(string)&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="PuntosVida(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry y="52" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Nivel(int)&lt;br&gt;&lt;br&gt;AtaqueBase(int)&lt;br&gt;&lt;br&gt;EsJugador (bool)&lt;br&gt;&lt;br&gt;PuntosDeHabilidad(int)&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry y="78" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Atacar()&lt;br&gt;&lt;br&gt;RecibirDaño()&lt;br&gt;&lt;br&gt;SubirNivel()&lt;br&gt;&lt;br&gt;EstáVivo()&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="328" width="162" height="162" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Jugador" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="110" width="220" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Nombre(string)&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+                    <mxGeometry y="26" width="220" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="PuntosVida(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+                    <mxGeometry y="52" width="220" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Nivel(int)&lt;br&gt;&lt;br&gt;AtaqueBase(int)&lt;br&gt;&lt;br&gt;EsJugador (bool)&lt;br&gt;&lt;br&gt;PuntosDeHabilidad(int)&lt;br&gt;&lt;br&gt;turnoDesdeUltimaHabilidad (int)&lt;br&gt;&lt;br&gt;enemigosDerrotados (int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+                    <mxGeometry y="78" width="220" height="182" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Atacar()&lt;br&gt;&lt;br&gt;RecibirDaño()&lt;br&gt;&lt;br&gt;SubirNivel()&lt;br&gt;&lt;br&gt;EstáVivo()&lt;br&gt;&lt;br&gt;SubirPuntosDehabilidad()&lt;br&gt;&lt;br&gt;IncrementarTurnoDesdeUltimaHablidad()&lt;br&gt;&lt;br&gt;ResetTurnoDesdeUltimaHablidad()" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="370" width="220" height="220" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
